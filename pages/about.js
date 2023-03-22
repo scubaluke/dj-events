@@ -1,7 +1,10 @@
+import Layout from '@/components/Layout';
+
 export default function AboutPage() {
   return (
-    <div>
+    <Layout title='about dj events'>
       <h1>AboutPage</h1>
-    </div>
+      <p>this is an app to find a dj and other events</p>
+    </Layout>
   );
 }

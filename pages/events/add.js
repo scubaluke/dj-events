@@ -1,3 +1,5 @@
+import Layout from '@/components/Layout';
+
 export default function Add() {
-  return <div>Add</div>;
+  return <Layout>Add</Layout>;
 }
